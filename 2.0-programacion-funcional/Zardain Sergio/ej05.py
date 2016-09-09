@@ -15,9 +15,16 @@ def esNumeroPrimo(numero):
     return True 
             
 if __name__ == "__main__":
-    numeroN = float(input("ingresar número: "))
-    if esNumeroPrimo(numeroN):
-        print("Es un numero primo")
+    numeroN = int(input("ingresar número: "))
+    listaNroPrimo = list(x for x in [x for x in range(2,numeroN)] if numeroN % x == 0) 
+    if len(listaNroPrimo) == 0:
+        print("Primo")
     else:
-        print("No es un numero primo")       
+        print("No primo")
+    
+    #resolución utilizando funciones
+    #if esNumeroPrimo(numeroN):
+    #    print("Es un numero primo")
+    #else:
+    #    print("No es un numero primo")       
             

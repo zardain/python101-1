@@ -15,13 +15,13 @@ def convertirFecha(duracion):
     hours = seconds // 3600
     minutes = (seconds % 3600) // 60
     seconds = (seconds % 60)
-    return minutes, hours, seconds
+    days = hours // 24
+    return days, minutes, hours, seconds
 
 def cuantoFalta(fecha,dicTiempo):
-    tuplaFecha = convertirFecha(datetime.now() - fecha) 
-    print(tuplaFecha)
-    #dicTiempo[fecha] = str(tuplaFecha(0)) + "minutos faltantes," + str(tuplaFecha(1)) + " horas faltantes y " + str(tuplaFecha(2)) + "segundos faltantes"
-    #print(dicTiempo[fecha])
+    tuplaFecha = convertirFecha(datetime.now() - fecha)
+    dicTiempo[fecha] = str(tuplaFecha[0]) + " minutos faltantes," + str(tuplaFecha[1]) + " horas faltantes y " + str(tuplaFecha[2]) + " segundos faltantes"
+    print(str(dicTiempo[fecha]))
     
 if __name__ == '__main__':
     dia = input("Ingrese el día: ")
