@@ -1,3 +1,5 @@
+#!/usr/bin/python3.5
+# -*- coding: utf-8 -*-
 '''
 Created on Jul 25, 2016
 
@@ -13,18 +15,18 @@ def sumarUno(valor):
     valor +=1
     return valor
 
-def agregarPrefijo(valor, text):    
+def agregarPrefijo(valor, text):
     return ( str(valor) + " - " + text )
 
 def saludar():
     print("Hola! soy una función!")
-    
+
 def armarLista(textoBase, cantidadDeElementos):
     lista = []
     for valor in range(cantidadDeElementos):
         texto = agregarPrefijo(sumarUno(valor), textoBase)
         lista.append(texto)
-    
+
     print(lista)
 
 

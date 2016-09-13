@@ -1,3 +1,6 @@
+#!/usr/bin/python3.5
+# -*- coding: utf-8 -*-
+''' Resolución de ejercicio mensaje codificado'''
 import os
 import shutil
 

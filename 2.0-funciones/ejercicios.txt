@@ -35,17 +35,14 @@
 ─────────────█─▄█▄─█─█▀▀█──▀█▀
 ─────────────██▀─▀██─█──█───█
 
-2.3 Listas por comprención:
+Listas por comprención:
 
 - Dado una lista de números enteros definir una nueva lista que indica la tupla numero-paridad(true/false)
 - Dado una lista de números de 0 a 100 obtener los números que esten por debajo de 50.
 - Dado una lista de números de 0 a 100 obtener los números que esten por debajo de 50 tal cual estan y los que no deberán ser multiplicados por 2.
 - Dado un número N entero entregar un generador que recorra todos los números pares <= a N.
 
-2.4 Decoradores
-- Generar un decorador que dependiendo un flag (true/false) de debug haga algo o no.
-
-3. Programación funcional
+Programación funcional
 
 - Dado un número, generar una función que indique si dicho número es primo o no lo es.
 
@@ -58,20 +55,3 @@ A su vez, se deberá escribir un diccionario (que dicha función reciba por par�
 
 - Escribir un programa que dado un diccionario (empleado-salario) indíque si este se encuentra por debajo del sueldo mínimo ($6000)
 En caso de que lo esté, agregarlo a una lista para luego ser impresa por pantalla.
-
-Recursividad:
- *** Se deberá tratar de pensar de manera recursiva las resoluciones de los siguientes ejercicios.
-
-- Revertir una lista.
-
-- Dado una lista de numeros calcular la sumatoria de dicho número.
-
-- Calcular el Nesimo número de fibbonacci. (Help: WIKI)
-
-- Dadas 2 listas con la misma cantidad de elementos intercalarlos.
-Ejemplo: [1,2,3,4] y [9,8,7,6] -> [1,9,2,8,3,7,4,6]
-
-- Dada una lista de números enteros y un numero entero n,revertir la lista n veces y retornar cada elemento multiplicado por n
-
-Tarea:
-- ¿Es posible generar una lista de tags html de manera recursiva?
