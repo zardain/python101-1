@@ -38,3 +38,10 @@ __http://www.apache.org/licenses/LICENSE-2.0.txt__
 * Listas por comprención
 
 * [Ejercicios!](2.0-programacion-funcional/ejercicios.txt)
+
+[**_Programacion orientada a objetos_**](3.0-clases-y-objetos)
+* [Definiendo una clase] (3.0-clases-y-objetos/src/auto.py)
+* [Métodos y atributos de instancia] (3.0-clases-y-objetos/src/auto.py)
+* [Ejercicios!](3.0-clases-y-objetos/ejercicios.txt)
+
+[**_Ejercicios para fortalecer conocimientos_**](4.0-extras-ejercicios)
