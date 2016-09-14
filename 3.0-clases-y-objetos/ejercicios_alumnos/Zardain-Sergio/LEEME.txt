@@ -1,9 +1,9 @@
 - Clases y Objetos
 
 - Ver auto.py en 3.0 ¿se entiende como está modelado? Consultas por slack.
-- Con auto.py hacer un programa que haga acelerar el auto a 100 km por hora, luego frenarlo y apagarlo.
-- Se requiere modelar un "contacto" con clases (debe poseer los mismos datos que ejercicio de 1.5).
-- Se requiere modelar una "agenda de contactos"(debe poseer las mismas funciones (ag, editar, etc) que ejercicio de 1.5).
+- ej02.py - Con auto.py hacer un programa que haga acelerar el auto a 100 km por hora, luego frenarlo y apagarlo.
+- ej03.py - Se requiere modelar un "contacto" con clases (debe poseer los mismos datos que ejercicio de 1.5).
+- ej03.py - Se requiere modelar una "agenda de contactos"(debe poseer las mismas funciones (ag, editar, etc) que ejercicio de 1.5).
 - Luego de modelar Agenda y Contacto nos piden que integremos dichas clases a nuestro sistema de contactos original (diccionario) (ver ultimo ejercicio de 1.5).
 
 Luego de esto, en teoría estaría todo funcionando de la misma manera que antes.
